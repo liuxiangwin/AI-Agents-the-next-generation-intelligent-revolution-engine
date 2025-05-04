@@ -1,0 +1,25 @@
+= React prompting
+include::_attributes.adoc[]
+:slide:
+
+== What is ReAct Prompting?
+
+**ReAct prompting** is an advanced technique for large language models (LLMs) that integrates reasoning and acting, allowing models to approach tasks in a structured, iterative way. By guiding the model through task-solving trajectories, ReAct prompting enables it to reason through a problem step-by-step while simultaneously performing actions, such as retrieving information or interacting with external tools. This synergy between reasoning and acting allows the model to both plan and execute in a flexible, effective manner.
+
+== Why ReAct Prompting is Effective
+
+ReAct prompting excels by combining two crucial processes:
+
+- **Reasoning**: The model generates reasoning traces as it thinks through the task, effectively breaking down complex queries into manageable steps. This process enables the model to understand and approach each part of the problem individually.
+  
+- **Acting**: The model performs actions, such as querying external APIs, accessing databases, or using specific tools to gather real-time information. These actions are informed by the model’s reasoning, ensuring that each action contributes meaningfully to the overall solution.
+
+For more in-depth information, see the original research paper on ReAct prompting: _ReAct: Synergizing Reasoning and Acting in Language Models_ (https://arxiv.org/abs/2210.03629[link]).
+
+image::04/04-01-react-basic.png[ReAct Basic]
+
+== Exercise: ReAct Pattern - Practical Example
+
+Let's see the ReAct Pattern in Action!
+
+From the `agentic-workshop/lab-materials/02` folder, please open the notebook called `2.3-react-prompting.ipynb` and follow the instructions.

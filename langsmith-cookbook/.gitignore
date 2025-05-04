@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+.chroma
+.ipynb_checkpoints
+.ipynb
+.venv
+secrets.toml
+.env
+.idea
+_scratch

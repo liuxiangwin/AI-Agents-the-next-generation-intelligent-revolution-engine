@@ -1,0 +1,5 @@
+= Preparing Environment and Next Steps
+include::_attributes.adoc[]
+:slide:
+
+TBD

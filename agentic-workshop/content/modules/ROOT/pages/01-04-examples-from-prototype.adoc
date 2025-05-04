@@ -1,0 +1,43 @@
+## Examples from Prototyping Work  
+
+=== **1. Text Summarization**  
+*Purpose*: Summarize lengthy financial reports or client inquiries for quick understanding.  
+
+* _Input_: "Client wants a detailed report on Q3 2024 sector performance."  
+* _Output_: "Client needs Q3 2024 sector performance summary for decision-making."  
+
+*Impact*: Saves time for analysts by condensing complex information.  
+
+=== **2. Information Extraction**  
+*Purpose*: Automatically extract key data from unstructured inputs.  
+
+* _Input_: "Revenue: $12M, Expenses: $8M, Profit: $4M."  
+* _Output_: { Revenue: "$12M", Expenses: "$8M", Profit: "$4M" }  
+
+*Impact*: Reduces manual effort and ensures accuracy in reports.  
+
+=== **3. Sentiment Analysis**  
+*Purpose*: Identify urgency or dissatisfaction in client communications.  
+
+* _Input_: "We've waited weeks for this analysis; please expedite."  
+* _Output_: Sentiment: Negative | Action: Prioritize.  
+
+*Impact*: Helps prioritize critical client interactions, improving satisfaction.  
+
+=== **4. Financial Data Recognition**  
+*Purpose*: Automate the extraction of key metrics from documents.  
+
+* _Input_: Financial report PDF with revenue and expenses.  
+* _Output_: { Revenue: "$10M", Expenses: "$7M", Margin: "30%" }  
+
+*Impact*: Speeds up analysis and benchmarking for faster insights.  
+
+=== **5. Centralized Financial Platform**  
+*Purpose*: Integrate tools into a single interface for analysts and support engineers.  
+
+* _Features_:  
+  * Summarized insights dashboard.  
+  * Automated client query handling.  
+  * Real-time anomaly detection.  
+
+*Impact*: Streamlines workflows and enhances cross-departmental collaboration.  
